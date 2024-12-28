@@ -12,8 +12,9 @@ function App() {
   const addValue = () => {
     //counter = counter + 1
     setCounter(prevCounter => prevCounter + 1)
- 
-    
+
+    setCounter(prevCounter => prevCounter + 1)
+    // simultaneously adding 2 to the previous state
   }
 
   const removeValue = () => {
